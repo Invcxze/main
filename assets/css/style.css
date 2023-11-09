@@ -1,0 +1,228 @@
+body {
+  background-color: salmon;
+}
+.btn-primary {
+  background: linear-gradient(180deg, #111111 -2.11%, #1AEAEA 50.52%, #111111 97.47%);
+  box-shadow: 1px 3px 8px 0px #11111154;
+  width: 196px;
+  height: 65px;
+  top: 69px;
+  left: 74px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.btn-wrapper {
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03024D;
+  width: 851px;
+  height: 74px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+  text-decoration: underline;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(307deg, #BC2EDF 14.03%, rgba(188, 46, 223, 0.48) 62.45%, rgba(188, 46, 223, 0.00) 85.56%);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  left: 9px;
+  gap: 1px;
+  margin: auto;
+
+}
+
+.text-logo {
+  color: #000;
+  font-family: Rakkas;
+  font-size: 30px;
+  font-style: regular;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-decoration-thickness: 2px;
+  margin-left: 5px;
+}
+
+.logo-line {
+  width: 38px;
+  height: 8.5px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #000;
+  position: absolute;
+  top: 15px;
+  left: 9px;
+  gap: 1px
+}
+.card-1 {
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14);
+  display: inline-grid;
+  padding: 26px 24px;
+  grid-gap: 13px;
+}
+.btn-secondary {
+  border-radius: 8px;
+  background: #3D97B4;
+  display: flex;
+  padding: 11px 74px 11px 73px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  outline: none;
+  border: none;
+
+}
+.card-price {
+  color: #3D97B4;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-image {
+  width: 278px;
+  height: 251px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.main-article {
+  color: #000;
+  /*font-family: Montserrat;*/
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 327px;
+  height: 163px;
+  flex-shrink: 0;
+}
+.card-description {
+  color: #000;
+  /*font-family: Montserrat;*/
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn-tertiary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 16px 22px;
+  border-radius: 50px;
+  background: rgba(255, 234, 47, 0.59);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+  outline: none;
+  border: none;
+  width: 237px;
+  height: 56px;
+  top: 322px;
+  left: 86px;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+.phone-icon {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 13px 13px 12px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: rgba(30, 224, 49, 0.63);
+  margin-bottom: 20px;
+}
+.card-2 {
+  display: grid;
+  width: 386px;
+  padding: 59px 75px 54px 75px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px;
+  background-color: white;
+  margin: auto;
+}
+.text-btn {
+  /*font-family: Montserrat;*/
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.card-3 {
+  background-color: #FFFFFF;
+  width: 386px;
+  height: 277px;
+  top: 771px;
+  left: -336px;
+  padding: 59px 75px 54px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.card-3-text{
+  /*font-family: Montserrat;*/
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
